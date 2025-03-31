@@ -12,7 +12,7 @@ By the time the user logs in he can see the list of entries he owns. The list of
 
 import provider_list from '/img/providers/provider_list.png';
 
-<img src={provider_list} alt="List all entries" style={{width: 500}} />
+<img src={provider_list} alt="List all entries" style={{width: 700}} />
 
 The displayed information includes:
 
@@ -31,7 +31,7 @@ At the same time the user can filter the list of entries by selecting one of the
 
 import providers_search from '/img/providers/providers_search.png';
 
-<img src={providers_search} alt="Search all entries" style={{width: 500}} />
+<img src={providers_search} alt="Search all entries" style={{width: 700}} />
 
 
 ### Add new 
@@ -50,7 +50,7 @@ The user should fill in the following details
 
 import provider_add from '/img/providers/provider_add.png';
 
-<img src={provider_add} alt="Add a new entry" style={{width: 500}} />
+<img src={provider_add} alt="Add a new entry" style={{width: 700}} />
 
 To proceed with the addition, the user should click the Submit button.
 To cancel the addition, click the Cancel button: Cancel Button.
@@ -66,7 +66,7 @@ The user may update the value he wants.
 
 import provider_edit from '/img/providers/provider_edit.png';
 
-<img src={provider_edit} alt="Update the details of a Provider" style={{width: 500}} />
+<img src={provider_edit} alt="Update the details of a Provider" style={{width: 700}} />
 
 To save the changes, the user should click the Update button. To cancel the changes, the user should click the Cancel button.
 By the time a change happens the status of the entry moves to Pending. 
@@ -78,7 +78,7 @@ To view the details of a specific entry, click the Details button: View Details 
 
 import provider_view from '/img/providers/provider_view.png';
 
-<img src={provider_view} alt="View the details of a Provider" style={{width: 500}} />
+<img src={provider_view} alt="View the details of a Provider" style={{width: 700}} />
 
 
 ### Delete
