@@ -1,5 +1,7 @@
 ---
+title: Introduction 
 sidebar_position: 1
+id: introduction
 ---
 
 Persistent Identifiers (PIDs) are elementary ingredients in nowadays and future research data management processes. Looking at various data life cycles, identifiers help to achieve certain goals in a very efficient way, supporting steps to find, relate, integrate and publish data. If you look at these activities, it becomes clear that the FAIR criteria also support internal data processing, even before publication. In fact, various FAIR criteria explicitly mention the use of Persistent Identifiers. But the landscape of Persistent Identifiers is quite complex. Historically, different systems were established and still play important roles in various disciplines (e.g. see Klump&Huber 2017). Those PID systems have specific properties, and provide specific information, in respect of their resolution method. To include those in data management procedures, or more importantly in data analytics processes, an in-depth understanding and specialized software is required. It would require considerable effort to implement all the necessary interfaces to be able to resolve different PID systems. 
