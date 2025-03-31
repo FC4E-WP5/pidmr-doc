@@ -1,4 +1,8 @@
-
+---
+id: pidmr_api
+title: Metaresolver API
+sidebar_position: 4
+---
 
 
 ### Metaresolver API -  PIDMR-API
@@ -19,7 +23,8 @@ The main characteristics are the following:
  - Landing Page Resolution: This resolution method provides the URL to the landing page associated with a PID.
  - Validate PIDs: This operation checks the validity of each identifier. Every Provider has a regex based on which the validation is performed.
  - Identify PIDs: This operation identifies PIDs based on a set of rules that are in the core of the API. The identification may be exact or it may be a proposal that matches more than one PID.
- - Batch PIDs: Another feature is that the api can fetch a number of PIDs , validate , identify and return the type of PID . 
+ - Batch PIDs: Another feature is that the api can fetch a number of PIDs , validate , identify and return the type of PID .
+ - Support rules per provider: The latest API feature introduces support for validation rules, enabling checks for PIDs that require specific algorithms to verify their validity. A key example is ISBN, which includes a checksum to determine whether a given number is valid. This functionality is designed as a general solution, allowing for the validation of various PIDs that rely on checksums or other verification mechanisms.
 
 This endpoint identifies PIDs from the provided text.
 
