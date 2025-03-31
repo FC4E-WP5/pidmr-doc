@@ -8,7 +8,7 @@ sidebar_position: 3
 
 The Metaresolver UI (PIDMR-UI) is a web-application, created using the React javascript framework. Metaresolver UI provides the main user 
 interface for resolving PIDs. It is the first client that validates and tests the use of the Metaresolver API. The current development 
-instance resides at [pidmr.argo.grnet.gr](pidmr.argo.grnet.gr) and uses the Metaresolver API (PIDMR-API)  as backend.
+instance resides at [pidmr.argo.grnet.gr](https://pidmr.argo.grnet.gr) and uses the Metaresolver API (PIDMR-API)  as backend.
 
 The UI consists of two main views:
 
