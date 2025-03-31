@@ -85,7 +85,7 @@ import provider_view from '/img/providers/provider_view.png';
 
 A User can delete one of the entries he owns by clicking on the Delete button. Then a modal like the one in the following image will appear.
 
-import providers_delete from '/img/providers/providers_delete.png';
+import providers_delete from '/img/providers/provider_delete.png';
 
 <img src={providers_delete} alt="Delete a Provider" style={{width: 500}} />
 
