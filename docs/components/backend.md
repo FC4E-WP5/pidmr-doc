@@ -1,8 +1,10 @@
 ---
 id: pidmr_backend
 title: Metaresolver Backend
-sidebar_position: 1
+sidebar_position: 2
 ---
+
+### Metaresolver Backend 
 
 The Metaresolver is the main component that is responsible for the resolution of a PID and the presentation of a landing page, 
 metadata or the underlying resource of the PID. A proxy server was set up based on the Handle Software which provides resolving 
