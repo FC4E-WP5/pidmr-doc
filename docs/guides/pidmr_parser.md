@@ -21,12 +21,14 @@ The result that is created is of the following format
 
 ```json
 {
-  id":"10.5524/100005",
+  "id":"10.5524/100005",
   "type":"dataset",
   "title":"Genomic data from the Emperor penguin (Aptenodytes forsteri)",
   "result":
     {
-      "accessRights":"OPEN","embargoEndDate":"","authors":["Li, J","Zhang, G","Lambert, D","Wang, J"],
+      "accessRights":"OPEN",
+      "embargoEndDate":"",
+      "authors":["Li, J","Zhang, G","Lambert, D","Wang, J"],
       "editors":[],
       "source":"datacite",
       "publisher":"GigaScience",
