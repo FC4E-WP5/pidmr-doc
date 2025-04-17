@@ -20,9 +20,23 @@ curl http://pidmr-service-url/10.5524%2F100005
 The result that is created is of the following format 
 
 ```json
-
-{"id":"10.5524/100005","type":"dataset","title":"Genomic data from the Emperor penguin (Aptenodytes forsteri)","result":{"accessRights":"OPEN","embargoEndDate":"","authors":["Li, J","Zhang, G","Lambert, D","Wang, J"],"editors":[],"source":"datacite","publisher":"GigaScience","journal":null,"DOI":"10.5524/100005","url":"https://doi.org/10.5524/100005","date":2011}}
+{
+  id":"10.5524/100005",
+  "type":"dataset",
+  "title":"Genomic data from the Emperor penguin (Aptenodytes forsteri)",
+  "result":
+    {
+      "accessRights":"OPEN","embargoEndDate":"","authors":["Li, J","Zhang, G","Lambert, D","Wang, J"],
+      "editors":[],
+      "source":"datacite",
+      "publisher":"GigaScience",
+      "journal":null,
+      "DOI":"10.5524/100005",
+      "url":"https://doi.org/10.5524/100005",
+      "date":2011
+    }
+}
 
 ```
 
-You may find the code and more details from [here](https://code-repo.d4science.org/argiro.kokogiannaki)
+You may find the code and more details from [here](https://code-repo.d4science.org/argiro.kokogiannaki/pid-parser-service)
